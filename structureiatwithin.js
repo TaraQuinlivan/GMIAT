@@ -5,54 +5,54 @@ define(['pipAPI', 'https://floydy10.github.io/qualtrics-custom-script/fullbiat.j
 	return iatExtension({
 		practiceCategory1 : 
 			{
-				name : 'Truthtellers', //Will appear in the data.
+				name : 'Good_Mother', //Will appear in the data.
 				title : {
-					media : {word : 'Truthtellers'}, //Name of the category presented in the task.
+					media : {word : 'Good Mother'}, //Name of the category presented in the task.
 					css : {color:'#000000','font-size':'1.8em'}, //Style of the category title.
 					height : 4, //Height (because we need to know where to put the next item in the title)
 					startStimulus : { 
 					//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-						media : {word : 'Truthteller 1, Truthteller 2, Truthteller 3, Truthteller 4'}, 
+						media : {word : 'Happy, Attentive, Calm, Responsible'}, 
 						css : {color:'#000000','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Truthteller 1'}, 
-					{word : 'Truthteller 2'}, 
-					{word : 'Truthteller 3'}, 
-					{word : 'Truthteller 4'}
+					{word : 'Happy'}, 
+					{word : 'Attentive'}, 
+					{word : 'Calm'}, 
+					{word : 'Responsible'}
 				], 
 				//Stimulus css (style of the stimuli)
 				stimulusCss : {color:'#000000','font-size':'2em'}
 			},	
 			practiceCategory2 : 
 			{
-				name : 'Liars', 
+				name : 'Bad_Mother', 
 				title : {
-					media : {word : 'Liars'}, 
+					media : {word : 'Bad Mother'}, 
 					css : {color:'#000000','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Liar 1, Liar 2, Liar 3, Liar 4'}, 
+						media : {word : 'Unsatisfied, Overwhelmed, Tired, Self-focused'}, 
 						css : {color:'#000000','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Liar 1'}, 
-					{word : 'Liar 2'}, 
-					{word : 'Liar 3'}, 
-					{word : 'Liar 4'}
+					{word : 'Unsatisfied'}, 
+					{word : 'Overwhelmed'}, 
+					{word : 'Tired'}, 
+					{word : 'Self-focused'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#000000','font-size':'2em'}
 			},
 			categories : [  //As many categories you need.
 				{
-					name : 'Peter Dutton', //Will appear in the data.
+					name : 'Self', //Will appear in the data.
 					title : {
-						media : {word : 'Peter Dutton'}, //Name of the category presented in the task.
+						media : {word : 'Self'}, //Name of the category presented in the task.
 						css : {color:'#000000','font-size':'1.8em'}, //Style of the category title.
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
