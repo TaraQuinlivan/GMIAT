@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://floydy10.github.io/qualtrics-custom-script/fullbiat.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://taraquinlivan.github.io/GMIAT/fullbiat.js'], function(APIConstructor, iatExtension){
  var API = new APIConstructor();
 
 	
